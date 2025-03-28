@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+.header-container {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+
+.header-container .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.header-container .header-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-container .header-img-container {
+    width: 3rem;
+    height: 3rem;
+    border: solid #333;
+    border-width: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.header-container .header-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.header-container .header-text {
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header-container .header-menu-container {
+}
+
+.header-container .header-menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .header-menu-item {
+    list-style: none;
+    transition: background .3s;
+}.header-menu-item:hover {
+    background: #ddd
+}
+
+.header-container .header-menu-item-content {
+    padding: 2rem;
+    display: inline-block;
+}
